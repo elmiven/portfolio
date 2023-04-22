@@ -1,0 +1,27 @@
+.container {
+  border: 1px solid purple;
+  /* height: 100%; */
+  margin: 0 auto;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+h2 {}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%
+  }
+}

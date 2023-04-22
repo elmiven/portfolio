@@ -1,0 +1,88 @@
+.mainBlock {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    min-height: 100vh;
+    /* height: 900px; */
+    background: #3D7EAA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE47A, #3D7EAA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); */
+
+
+}
+
+
+.title {
+    border: 1px solid red;
+  
+    /* align-self: stretch; */
+}
+
+.mainContainer {
+    border: 2px solid orange;
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-start;  
+    /* flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center; */
+    /* background-color: #eeeef5; */
+    /* display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+    /* position: relative; */
+  
+    
+    /* height: 100vh; */
+    /* flex-basis: 100%; */
+
+    /* align-self: stretch; */
+    /* align-items: stretch; */
+}
+
+
+
+.main {
+    border: 1px solid whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.text {
+    width: 355px;
+    height: 400px;
+    height: 100%;
+    background-color: #130101;
+    color: gainsboro;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 355px;
+    height: 350px;
+    background-color: #062430;
+    margin: 0 auto;
+    background: url(https://img.freepik.com/premium-vector/software-language-programmer-avatar_24877-764.jpg);
+    background-size: 450px;
+    /* background: url(https://banner2.cleanpng.com/20180702/xri/kisspng-programmer-computer-icons-ninja-saga-computer-soft-5b39c4767970d8.4422908815305125024974.jpg) */
+}

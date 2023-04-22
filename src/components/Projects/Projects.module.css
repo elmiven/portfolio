@@ -1,0 +1,29 @@
+.ProjectsBlock {
+    min-height: 100vh;
+    /* background-color: #d4ff00; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.ProjectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: #eeeef5; */
+}
+
+.title {
+    /* background-color: #eeeef5; */
+}
+
+.Projects {
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 95vh;
+   
+}

@@ -1,0 +1,33 @@
+.skillsBlock {
+    min-height: 100vh;
+    /* background-color: #d4ff00; */
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+    /* background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ); */
+    
+}
+
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: #eeeef5; */
+}
+
+.title {
+    /* background-color: #eeeef5; */
+}
+
+.skills {
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 95vh;
+   
+}
