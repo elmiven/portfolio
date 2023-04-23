@@ -17,7 +17,7 @@ function RemoteJob() {
 
 
           <div className={styles.text}>
-            <span>Currently looking for remote Job,
+            <span>Currently looking for remote job,
               see contacts below ⤵
 
             </span>

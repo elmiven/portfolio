@@ -10,9 +10,9 @@ function Nav() {
         <a href="#About">About</a>
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
-        <a href="#Hire">Hire(Remote)</a>
-        <a href="#Contacts">Contacts</a>
-        {/* <a href="#Footer">Footer</a> */}
+        <a href="#Hire">Hire me</a>
+        <a href="#Contacts">Contact</a>
+        <a href="#Footer">Social media</a>
       </div>
     </div>
 

@@ -11,12 +11,12 @@ let projects = {
   },
   AdvancedTDL: {
     title: "AdvancedToDoList",
-    description: "I know how to make responsive markups and also flex and grid markups stiles...",
+    description: "Advance TDL with multiple lists and server synchronization",
     picurl: "https://images.squarespace-cdn.com/content/v1/5f64c2a45a59eb66a7264992/1626437886765-SD1B5ZXR3VIP4SXGEOHW/overwhelmed_by_app.jpg"
   },
   PetProject1: {
     title: "Pet-project 1",
-    description: "I'm the guru of the React and in it's FLUX dataflow",
+    description: "Project where I've implemented all my knowledges about Fron-end",
     picurl: "https://www.freecodecamp.org/news/content/images/2023/03/thumbnail_EN--2-.png"
   }
 

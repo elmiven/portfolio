@@ -25,3 +25,16 @@ h2 {}
     width: 100%
   }
 }
+
+
+a {
+  color: azure;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: paleturquoise;
+  font-weight: bold;
+}

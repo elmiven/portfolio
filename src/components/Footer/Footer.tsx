@@ -9,7 +9,7 @@ function Footer() {
       <div className={`${stylesContainer.container} ${styles.footerContainer} `}>
 
 
-        <a href="#" id="Footer"><h2>Footer</h2></a>
+        <a href="#" id="Footer"><h2>in social networks</h2></a>
 
         
         <div className={styles.footer}>

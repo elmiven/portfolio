@@ -41,9 +41,15 @@
     /* margin: 0 auto; */
 }
 
-.photo {
-    min-width: 100px;
-    height: 400px;
-    background-color: #062430;
-    /* margin: 0 auto; */
+
+.footerBlock a {
+    color: azure;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.footerBlock a:hover {
+    color: paleturquoise;
+    font-weight: bold;
 }
