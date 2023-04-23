@@ -9,21 +9,22 @@
     text-align: center;
     margin: 10px auto;
     overflow: hidden;
-    
+
 }
 
 
 @media (max-width: 400px) {
     .project {
-      width: 99%;
+        width: 99%;
     }
-  }
+}
 
 .description {
     color: antiquewhite;
     margin: 10px;
 }
-.description h3{
+
+.description h3 {
     color: antiquewhite;
     padding: 0px;
     margin-top: 0px;
@@ -43,36 +44,37 @@
     /* align-items: center; */
 
     -webkit-transform: rotate(0) scale(1);
-	transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
 }
 
 
 .img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
 
-    
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
         opacity: 1;
-        -webkit-animation: flash 1.5s;
-        animation: flash 1.5s;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
     }
 
-    @-webkit-keyframes flash {
-        0% {
-            opacity: .4;
-        }
-        100% {
-            opacity: 1;
-        }
+    100% {
+        opacity: 1;
     }
-    @keyframes flash {
-        0% {
-            opacity: .4;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
+}
 
-    /* align-items: center; */
+/* align-items: center; */
 
 
 
@@ -80,16 +82,17 @@
 .checkit {
     width: 100px;
     height: 23px;
-background: white;
-color:rgba(0,0,0,0.3);
-font-weight: bold;
-font-size: 18px;
-margin-top: 80%;
+    background: white;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 80%;
 
 }
+
 .checkit:hover {
-background: orange;
-color:rgba(0,0,0,0.1);
+    background: orange;
+    color: rgba(0, 0, 0, 0.1);
 
 
 }
@@ -100,14 +103,14 @@ color:rgba(0,0,0,0.1);
 .icon {
     height: 60px;
     width: 60px;
-    background-color: #eeeef5; 
+    background-color: #eeeef5;
 }
 
 
-.icon img{
+.icon img {
     height: 60px;
     width: 60px;
-    background-color: #eeeef5; 
+    background-color: #eeeef5;
 }
 
 /* #d4ff00; */
