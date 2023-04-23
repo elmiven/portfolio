@@ -12,7 +12,7 @@ function Nav() {
         <a href="#Projects">Projects</a>
         <a href="#Hire">Hire(Remote)</a>
         <a href="#Contacts">Contacts</a>
-        <a href="#Footer">Footer</a>
+        {/* <a href="#Footer">Footer</a> */}
       </div>
     </div>
 
