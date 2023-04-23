@@ -7,12 +7,12 @@
     border: 1px solid gray;
     /* width: 600px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 18px;
-    gap: 10px;
+    gap: 12px;
     overflow: visible;
     flex-wrap: wrap;
-
+    padding: 1px 2px;
 }
 
 

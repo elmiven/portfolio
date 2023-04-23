@@ -18,8 +18,8 @@ function RemoteJob() {
 
           <div className={styles.text}>
             <span>Currently looking for remote Job,
-              see contacts below
-              
+              see contacts below ⤵
+
             </span>
           </div>
 

@@ -1,5 +1,6 @@
 .project {
     width: 400px;
+    /* max-width:400px; */
 
     display: flex;
     flex-direction: column;
@@ -11,11 +12,22 @@
     
 }
 
+
+@media (max-width: 400px) {
+    .project {
+      width: 99%;
+    }
+  }
+
 .description {
     color: antiquewhite;
-    padding: 10px;
+    margin: 10px;
 }
-
+.description h3{
+    color: antiquewhite;
+    padding: 0px;
+    margin-top: 0px;
+}
 
 
 

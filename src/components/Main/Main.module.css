@@ -22,18 +22,17 @@
 }
 
 
-.title {
-    border: 1px solid red;
-  
-    /* align-self: stretch; */
-}
 
 .mainContainer {
-    border: 2px solid orange;
-  /* display: flex; */
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: flex-start;  
+    border: 1px solid orange;
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+    flex-wrap: wrap 
+
     /* flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
@@ -45,8 +44,8 @@
             justify-content: center;
             align-items: center; */
     /* position: relative; */
-  
-    
+
+
     /* height: 100vh; */
     /* flex-basis: 100%; */
 
@@ -55,34 +54,77 @@
 }
 
 
+.title {
+    border: 1px solid greenyellow;
+   
+    /* align-self: stretch; */
+}
+
+.title h2{
+ 
+    /* margin: 0px; */
+   
+    /* align-self: stretch; */
+}
+
+.space {
+
+height: 15%;
+
+}
+
+.verticalAlign {
+    border: 1px solid red;
+    display: flex;
+    /* justify-content: center; */
+    height: 100%;
+   
+
+
+}
 
 .main {
     border: 1px solid whitesmoke;
-    width: 100%;
+    width: 80%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
+    bottom: 27%;
+    top: 25%;
+    margin: 0;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
 }
 
 
 
 .text {
-    width: 355px;
-    height: 400px;
-    height: 100%;
+    width: 345px;
     background-color: #130101;
     color: gainsboro;
     margin: 0 auto;
+    padding: 5px;
 }
+
+
 
 .photo {
     width: 355px;
-    height: 350px;
+    height: 320px;
     background-color: #062430;
     margin: 0 auto;
     background: url(https://img.freepik.com/premium-vector/software-language-programmer-avatar_24877-764.jpg);
     background-size: 450px;
+    background-position: 0px -30px;
     /* background: url(https://banner2.cleanpng.com/20180702/xri/kisspng-programmer-computer-icons-ninja-saga-computer-soft-5b39c4767970d8.4422908815305125024974.jpg) */
 }
+
+
+
+@media (max-width: 500px) {
+    .main, .text, .photo {
+      width: 100%
+    }
+  }
